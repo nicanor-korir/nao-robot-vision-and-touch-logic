@@ -1,0 +1,15 @@
+# ------------------------------------------------------------------
+# NO INSTALLATION REQUIRED FOR NAO ROBOT
+# ------------------------------------------------------------------
+# The code in this folder runs on the NAOqi Operating System (Gentoo).
+# It relies exclusively on:
+# 1. Standard Python 2.7 Libraries (built-in)
+# 2. NAOqi SDK (ALProxy, vision_definitions) (built-in)
+#
+# Do NOT attempt to run 'pip install' on the robot.
+# ------------------------------------------------------------------
+
+# Built-in modules used:
+# - urllib2 (for HTTP requests)
+# - json (for parsing server response)
+# - time (for loops)

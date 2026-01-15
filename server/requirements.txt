@@ -1,0 +1,10 @@
+# Core Web Server
+flask>=3.0.0
+
+# AI & Computer Vision
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.21.0
+
+# Utilities
+requests>=2.31.0

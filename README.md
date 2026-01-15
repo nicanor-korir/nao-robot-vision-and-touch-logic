@@ -141,6 +141,25 @@ graph TD
 
 ---
 
+## 📂 Folder Structure
+
+```text
+/
+├── server/                             # Runs on locally Laptop/PC
+│   ├── nao_server.py                   # Flask server + YOLOv8 detection
+│   ├── nao_server_with_opencv.py       # Flask server + YOLOv8 detection
+│   └── requirements.txt   
+│
+├── nao_code/             # The "Eyes" (Runs on NAO Robot)
+│   ├── choregraphe_code_script_v4_v5.py     # Logic for older robots (Stop-and-Scan)
+│   ├── choregraphe_code_script_v6.py        # Logic for V6 (Continuous Patrol)
+│   └── requirements.txt                     # Info on robot dependencies
+│
+├── INSTRUCTIONS_V4_V5.md   # Setup guide for Atom Z530 robots
+└── INSTRUCTIONS_V6.md      # Setup guide for Atom E3845 robots
+
+---
+
 ## 7. Troubleshooting
 
 | Issue | Possible Cause | Solution |
