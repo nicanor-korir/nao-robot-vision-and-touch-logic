@@ -1,8 +1,8 @@
-# NAO Robot External Vision System (Brain-Off-Board)
+# NAO Robot External Vision System
 
 ## 1. Project Overview
 
-This project implements a **Brain-Off-Board** architecture for the NAO Robot. Because the NAO's internal processor (Atom Z530 on V4/V5) is insufficient for running modern Deep Learning models, this system offloads image processing to an external server (a high-performance laptop or cloud instance)
+This is a simple project to add vision classification logic on nao robot
 
 **Key Features:**
 
